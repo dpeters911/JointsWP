@@ -1,15 +1,17 @@
-Find out more here: www.jointswp.com  
-Demo: www.jointswp.com/demo
-
 Currently using Foundation 6.3.
 
-### What is JointsWP?
-JointsWP is a blank WordPress theme built with Foundation 6, giving you all the power and flexibility you need to build complex, mobile friendly websites without having to start from scratch.
+### What is OrganizerWP?
+OrganizerWP is a fork of the JointsWP project, a blank WordPress theme built with Foundation 6, enabling fast website creation use free and open source software to help organizers.
 
-Starting its humble life as a fork of the popular theme Bones, JointsWP is now the foundation of thousands of websites across the globe.
+### What comes with OrganizerWP?
+OrganizerWP is planned to have the following features:
+- Theme Customizer.
+- Calendar Theming and Page Layouts for free plugin, The Event Calendar.
+- Variety of page and post layouts with multiple content areas.
+- Focus minimally on design; maximally on content.
+- Weirdo features that are useful from other organizing projects.
 
-### What comes with JointsWP?
-JointsWP comes pre-baked with all of the great features that are found in the Foundation framework – simply put, if it works in Foundation, it will work in JointsWP. The theme also includes:
+Its parent fork, JointsWP, comes pre-baked with all of the great features that are found in the Foundation framework – simply put, if it works in Foundation, it will work in JointsWP. The theme also includes:
 
 - Foundation Navigation Options
 - Motion-UI
@@ -18,8 +20,12 @@ JointsWP comes pre-baked with all of the great features that are found in the Fo
 - Bower and Gulp Support
 - And much, much more!
 
-### What tools do I need to use JointsWP?
-You can use whatever you want – seriously. While the Sass version comes with Bower and Gulp support out of the box, you aren’t required to use those by any means. You can use CodeKit, Grunt, Compass or nothing at all. It’s completely up to you how you decide to build you theme – JointsWP won’t get in the way of your workflow.
+### What tools do I need to use to edit this?
+A text editor like notepad, Sublime, etc.
+
+### Where can I learn more about JointsWP?
+Find out more here: www.jointswp.com  
+Demo: www.jointswp.com/demo
 
 ### Getting Started With Gulp
 - Install [node.js](https://nodejs.org).
