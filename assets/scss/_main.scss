@@ -24,6 +24,9 @@ a, a:visited {
 H1, H2, H3, H4, H5 P STYLES
 *********************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	
+	font-family: Roboto, HelveticaNeue, Helvetica, Arial, Sans Serif;
+	font-weight: 300;
 
 	// Removing text decoration from all headline links
 	a {
@@ -66,6 +69,10 @@ NAVIGATION STYLES
 .top-bar {
 	.title-area {
 		z-index: 1;
+	}
+
+	a {
+		color: $white;
 	}
 } 
 

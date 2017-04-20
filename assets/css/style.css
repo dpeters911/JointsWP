@@ -937,8 +937,8 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   line-height: 1.5;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
@@ -954,11 +954,11 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 0; }
+  border-radius: 0.25rem; }
 
 select {
   width: 100%;
-  border-radius: 0; }
+  border-radius: 0.25rem; }
 
 .map_canvas img,
 .map_canvas embed,
@@ -974,7 +974,7 @@ button {
   -moz-appearance: none;
   appearance: none;
   border: 0;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background: transparent;
   line-height: 1; }
   [data-whatinput='mouse'] button {
@@ -1789,7 +1789,7 @@ i {
 
 strong,
 b {
-  font-weight: bold;
+  font-weight: 500;
   line-height: inherit; }
 
 small {
@@ -1802,9 +1802,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small,
@@ -1911,7 +1911,7 @@ dl {
   margin-bottom: 1rem; }
   dl dt {
     margin-bottom: 0.3rem;
-    font-weight: bold; }
+    font-weight: 500; }
 
 blockquote {
   margin: 0 0 1rem;
@@ -1941,7 +1941,7 @@ code {
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
+  font-weight: 300;
   color: #0a0a0a; }
 
 kbd {
@@ -1949,12 +1949,13 @@ kbd {
   padding: 0.125rem 0.25rem 0;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  color: #0a0a0a; }
+  color: #0a0a0a;
+  border-radius: 0.25rem; }
 
 .subheader {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.4;
   color: #8a8a8a; }
 
@@ -2071,12 +2072,12 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 300;
   color: #0a0a0a;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
@@ -2099,10 +2100,6 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #cacaca; }
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: #cacaca; }
-
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #cacaca; }
@@ -2122,7 +2119,7 @@ textarea[readonly] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0; }
+  border-radius: 0.25rem; }
 
 input[type='search'] {
   box-sizing: border-box; }
@@ -2154,7 +2151,7 @@ label {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.8;
   color: #0a0a0a; }
   label.middle {
@@ -2172,9 +2169,9 @@ label {
   width: 100%;
   margin-bottom: 1rem; }
   .input-group > :first-child {
-    border-radius: 0 0 0 0; }
+    border-radius: 0.25rem 0 0 0.25rem; }
   .input-group > :last-child > * {
-    border-radius: 0 0 0 0; }
+    border-radius: 0 0.25rem 0.25rem 0; }
 
 .input-group-label, .input-group-field, .input-group-button, .input-group-button a,
 .input-group-button input,
@@ -2248,7 +2245,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #fefefe;
   font-family: inherit;
   font-size: 1rem;
@@ -2284,8 +2281,6 @@ select {
   background-color: #f9ecea; }
   .is-invalid-input:not(:focus)::-webkit-input-placeholder {
     color: #cc4b37; }
-  .is-invalid-input:not(:focus)::-moz-placeholder {
-    color: #cc4b37; }
   .is-invalid-input:not(:focus):-ms-input-placeholder {
     color: #cc4b37; }
   .is-invalid-input:not(:focus)::placeholder {
@@ -2299,7 +2294,7 @@ select {
   margin-top: -0.5rem;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 500;
   color: #cc4b37; }
   .form-error.is-visible {
     display: block; }
@@ -2311,7 +2306,7 @@ select {
   padding: 0.85em 1em;
   -webkit-appearance: none;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 0.25rem;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   line-height: 1;
@@ -2464,10 +2459,10 @@ select {
   list-style-type: none; }
 
 .accordion-item:first-child > :first-child {
-  border-radius: 0 0 0 0; }
+  border-radius: 0.25rem 0.25rem 0 0; }
 
 .accordion-item:last-child > :last-child {
-  border-radius: 0 0 0 0; }
+  border-radius: 0 0 0.25rem 0.25rem; }
 
 .accordion-title {
   position: relative;
@@ -2480,7 +2475,7 @@ select {
   color: #1779ba; }
   :last-child:not(.is-active) > .accordion-title {
     border-bottom: 1px solid #e6e6e6;
-    border-radius: 0 0 0 0; }
+    border-radius: 0 0 0.25rem 0.25rem; }
   .accordion-title:hover, .accordion-title:focus {
     background-color: #e6e6e6; }
   .accordion-title::before {
@@ -2685,7 +2680,7 @@ select {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: white;
   color: #0a0a0a; }
   .callout > :first-child {
@@ -2721,7 +2716,7 @@ select {
 .card {
   margin-bottom: 1rem;
   border: 1px solid #e6e6e6;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background: #fefefe;
   box-shadow: none;
   overflow: hidden;
@@ -2978,7 +2973,7 @@ select {
   padding: 1rem;
   visibility: hidden;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #fefefe;
   font-size: 1rem; }
   .dropdown-pane.is-open {
@@ -3250,7 +3245,7 @@ select {
 .label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
   font-size: 0.8rem;
   line-height: 1;
   white-space: nowrap;
@@ -3566,7 +3561,7 @@ select {
     clear: both; }
   .pagination li {
     margin-right: 0.0625rem;
-    border-radius: 0;
+    border-radius: 0.25rem;
     font-size: 0.875rem;
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
@@ -3578,7 +3573,7 @@ select {
   .pagination button {
     display: block;
     padding: 0.1875rem 0.625rem;
-    border-radius: 0;
+    border-radius: 0.25rem;
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
@@ -3614,7 +3609,7 @@ select {
 .progress {
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #cacaca; }
   .progress.primary .progress-meter {
     background-color: #1779ba; }
@@ -3632,7 +3627,8 @@ select {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #1779ba; }
+  background-color: #1779ba;
+  border-radius: 0.25rem; }
 
 .progress-meter-text {
   position: absolute;
@@ -3644,7 +3640,8 @@ select {
   font-size: 0.75rem;
   font-weight: bold;
   color: #fefefe;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 0.25rem; }
 
 .slider {
   position: relative;
@@ -3682,7 +3679,7 @@ select {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #1779ba;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
@@ -3769,7 +3766,7 @@ html.is-reveal-open body {
   display: none;
   padding: 1rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #fefefe;
   position: relative;
   top: 100px;
@@ -3858,7 +3855,7 @@ html.is-reveal-open body {
   display: block;
   width: 4rem;
   height: 2rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background: #cacaca;
   transition: all 0.25s ease-out;
   font-weight: inherit;
@@ -3874,7 +3871,7 @@ html.is-reveal-open body {
     width: 1.5rem;
     height: 1.5rem;
     transform: translate3d(0, 0, 0);
-    border-radius: 0;
+    border-radius: 0.25rem;
     background: #fefefe;
     transition: all 0.25s ease-out;
     content: ''; }
@@ -3946,7 +3943,7 @@ html.is-reveal-open body {
 table {
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 0; }
+  border-radius: 0.25rem; }
   table thead,
   table tbody,
   table tfoot {
@@ -3954,7 +3951,7 @@ table {
     background-color: #fefefe; }
   table caption {
     padding: 0.5rem 0.625rem 0.625rem;
-    font-weight: bold; }
+    font-weight: 500; }
   table thead {
     background: #f8f8f8;
     color: #0a0a0a; }
@@ -3969,7 +3966,7 @@ table {
   table tfoot th,
   table tfoot td {
     padding: 0.5rem 0.625rem 0.625rem;
-    font-weight: bold;
+    font-weight: 500;
     text-align: left; }
   table tbody th,
   table tbody td {
@@ -4083,7 +4080,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   max-width: 100%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
-  border-radius: 0;
+  border-radius: 0.25rem;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }
 
@@ -4123,7 +4120,7 @@ a.thumbnail {
   position: relative;
   display: inline-block;
   border-bottom: dotted 1px #8a8a8a;
-  font-weight: bold;
+  font-weight: 500;
   cursor: help; }
 
 .tooltip {
@@ -4132,7 +4129,7 @@ a.thumbnail {
   z-index: 1200;
   max-width: 10rem;
   padding: 0.75rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
   background-color: #0a0a0a;
   font-size: 80%;
   color: #fefefe; }
@@ -4197,7 +4194,7 @@ a.thumbnail {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: 191C2C; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -4355,8 +4352,11 @@ a:link, a:visited:link {
 /*********************
 H1, H2, H3, H4, H5 P STYLES
 *********************/
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
-  text-decoration: none; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: Roboto, HelveticaNeue, Helvetica, Arial, Sans Serif;
+  font-weight: 300; }
+  h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+    text-decoration: none; }
 
 /*********************
 HEADER STYLES
@@ -4369,6 +4369,9 @@ NAVIGATION STYLES
 *********************/
 .top-bar .title-area {
   z-index: 1; }
+
+.top-bar a {
+  color: #fefefe; }
 
 .off-canvas-list ul {
   margin-left: 0; }
@@ -4439,7 +4442,7 @@ POSTS & CONTENT STYLES
   padding: 0.85em 1em;
   -webkit-appearance: none;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 0.25rem;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   line-height: 1;
