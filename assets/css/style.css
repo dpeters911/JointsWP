@@ -4194,7 +4194,7 @@ a.thumbnail {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: 191C2C; }
+    background-color: #191C2C; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -4372,6 +4372,19 @@ NAVIGATION STYLES
 
 .top-bar a {
   color: #fefefe; }
+
+.top-bar .menu .active a {
+  background: #505567; }
+  .top-bar .menu .active a:hover {
+    background: #fefefe;
+    color: #191C2C; }
+
+.top-bar .menu a {
+  border-radius: 0.25rem;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out; }
+  .top-bar .menu a:hover {
+    background: #fefefe;
+    color: #191C2C; }
 
 .off-canvas-list ul {
   margin-left: 0; }

@@ -74,6 +74,27 @@ NAVIGATION STYLES
 	a {
 		color: $white;
 	}
+	.menu {
+		.active {
+			a {
+				background: $organizer-gray-light;
+				&:hover {
+					background: $white;
+					color: $organizer-bg-dark;
+				}
+			}
+		}
+		a {
+			border-radius: $global-radius;
+			-webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    		-ms-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+   			transition: background-color 0.25s ease-out, color 0.25s ease-out;
+			&:hover {
+				background: $white;
+				color: $organizer-bg-dark;
+			}
+		}
+	}
 } 
 
 .off-canvas-list {
